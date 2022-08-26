@@ -1,0 +1,15 @@
+using System;
+
+namespace Harjoitus_D6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Syötä kaksi lukua, niin lasken ne yhteen.");
+            double luku1 = double.Parse(Console.ReadLine());
+            double luku2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("= {0}", luku1 + luku2);
+        }
+    }
+}
