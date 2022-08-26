@@ -1,0 +1,24 @@
+using System;
+
+namespace Harjoitus_D10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Syötä kokonaisluku väliltä 1-10: ");
+            int luku = int.Parse(Console.ReadLine());
+            if (luku < 1 || luku > 10)
+            {
+                Console.WriteLine("Virheellinen syöte.");
+            }
+            else
+            {
+                for (int i = 1; i < 11; i++)
+                {
+                    Console.WriteLine("{0} x {1} = {2}", luku, i, luku * i);
+                }
+            }
+        }
+    }
+}
