@@ -1,0 +1,14 @@
+using System;
+
+namespace Harjoitus_D7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Syötä Celsius arvo, niin muutan sen Fahrenheiteiksi.");
+            double celsius = double.Parse(Console.ReadLine());
+            Console.WriteLine("{0} Celsiusta on {1} Fahrenheittia.", celsius, celsius * 1.8 + 32);
+        }
+    }
+}
