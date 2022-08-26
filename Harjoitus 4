@@ -1,0 +1,13 @@
+using System;
+
+namespace Harjoitus_D4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Luvun 5,2 ja 3 jakojäännös: ");
+            Console.WriteLine(5.2 % 3);
+        }
+    }
+}
