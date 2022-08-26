@@ -1,0 +1,14 @@
+using System;
+
+namespace Harjoitus_D5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Syötä nimesi: ");
+            string nimi = Console.ReadLine();
+            Console.WriteLine("Hei {0}", nimi);
+        }
+    }
+}
